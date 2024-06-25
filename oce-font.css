@@ -88,26 +88,21 @@ h1, h2, h3, h4, h5, h6 {
 }
 .fuidformContent {background:#fff;}
 .fuidformContent .formHeader {
-	border-bottom: 1px solid #e0e0e0;
 	padding:18px 20px;
 }
 .fuidformContent .formHeader h1{
     color: #333;
     font-family: BentonSans;
-    font-size: 18px;
-    font-weight: bold;
-	float: left;
-    margin: 0;
+    font-size: 23px;
+    font-weight: normal;
+    text-align: center !important;
+	float: center;
+    margin: 5;
 }
 .fuidformContent  .formHeader span{
     float: right;
 }
-.fuidformContent  .formHeader span img{
-	background: url("amex-fuid-sprite.png") no-repeat -383px 0;
-    float: right;
-    height: 14px;
-    width: 10px;
-}
+
 .fuidNav{  
 	background:#f4f4f4;
 	border:1px solid #e0e0e0; 
@@ -205,39 +200,28 @@ h3.requestHeader{
     font-family: BentonSans;
     font-size: 13px;
 }
-.inputElement  span label{line-height:18px;}
+.inputElement  span label{line-height:16px;}
 .inputElement input[type="text"],.inputElement input[type="password"],
 .inputElement input[type="number"],
 #securityContainer input[type="text"],#securityContainer input[type="password"],
-.fuid_secuirty_box input[type="text"],.fuid_secuirty_box input[type="password"],#zipCode{ 
-	color:#333;
-	border: 1px solid #e5e5e5;
-    border-radius: 5px;
-	font-family: BentonSans;
-	font-size:15px;
-	margin-right:6px;
-    padding: 12px 13px 10px;
-	text-align:left;
-	-webkit-appearance:none;
-	float:left;
-	width:44px;
-}
-.inputElement  span label{line-height:18px;}
+.fuid_secuirty_box input[type="text"],.fuid_secuirty_box input[type="password"],
 .inputElement input[type="text"],.inputElement input[type="password"],
 .inputElement input[type="number"],
 #securityContainer input[type="text"],#securityContainer input[type="password"],
 .fuid_secuirty_box input[type="text"],.fuid_secuirty_box input[type="password"],#line,#email,#uid,#upw{ 
-	color:#333;
-	border: 1px solid #e5e5e5;
-    border-radius: 5px;
-	font-family: BentonSans;
-	font-size:14px;
-	margin-right:6px;
-    padding: 12px 13px 10px;
-	text-align:left;
-	-webkit-appearance:none;
-	float:left;
-	width:64px;
+	appearance: none;
+    background-color: rgb(247, 248, 249);
+    border: 0.0625rem solid rgb(142, 144, 146);
+    border-radius: 0.25rem;
+    color: rgb(51, 51, 51);
+    display: block;
+    font-size: 1rem;
+    line-height: 1.375rem;
+    min-height: 3.125rem;
+    padding: 0px 0.625rem;
+    transition: border-color 0.25s ease-out 0s;
+    width: 100%;
+    min-width: 5rem;
 }
 #zipCode{width:100px;}
 .fuid_secuirty_box{ padding: 10px 15px 10px 20px;}
@@ -250,69 +234,157 @@ h3.requestHeader{
 }
 
 #accountNumberInput{
-	margin-left:3px;
+	margin-left:0px;
 	width:210px;
+	appearance: none;
+    background-color: rgb(247, 248, 249);
+    border: 0.0625rem solid rgb(142, 144, 146);
+    border-radius: 0.25rem;
+    color: rgb(51, 51, 51);
+    display: block;
+    font-size: 1rem;
+    line-height: 1.375rem;
+    min-height: 3.125rem;
+    padding: 0px 0.625rem;
+    transition: border-color 0.25s ease-out 0s;
 }
 
 #mm{
-	margin-left:6px;
+	margin-left:0px;
 	width:70px;
+	appearance: none;
+    background-color: rgb(247, 248, 249);
+    border: 0.0625rem solid rgb(142, 144, 146);
+    border-radius: 0.25rem;
+    color: rgb(51, 51, 51);
+    display: block;
+    font-size: 1rem;
+    line-height: 1.375rem;
+    min-height: 3.125rem;
+    padding: 0px 0.625rem;
+    transition: border-color 0.25s ease-out 0s;
 }
 
 #dd{
-	margin-left:6px;
+	margin-left:0px;
 	width:70px;
+	appearance: none;
+    background-color: rgb(247, 248, 249);
+    border: 0.0625rem solid rgb(142, 144, 146);
+    border-radius: 0.25rem;
+    color: rgb(51, 51, 51);
+    display: block;
+    font-size: 1rem;
+    line-height: 1.375rem;
+    min-height: 3.125rem;
+    padding: 0px 0.625rem;
+    transition: border-color 0.25s ease-out 0s;
 }
 
 #yyyy{
-	margin-left:6px;
+	margin-left:0px;
 	width:70px;
+	appearance: none;
+    background-color: rgb(247, 248, 249);
+    border: 0.0625rem solid rgb(142, 144, 146);
+    border-radius: 0.25rem;
+    color: rgb(51, 51, 51);
+    display: block;
+    font-size: 1rem;
+    line-height: 1.375rem;
+    min-height: 3.125rem;
+    padding: 0px 0.625rem;
+    transition: border-color 0.25s ease-out 0s;
 }
 
 #spn{
 	margin-left:0px;
 	width:250px;
+	appearance: none;
+    background-color: rgb(247, 248, 249);
+    border: 0.0625rem solid rgb(142, 144, 146);
+    border-radius: 0.25rem;
+    color: rgb(51, 51, 51);
+    display: block;
+    font-size: 1rem;
+    line-height: 1.375rem;
+    min-height: 3.125rem;
+    padding: 0px 0.625rem;
+    transition: border-color 0.25s ease-out 0s;
 }
 
 #mmn{
 	margin-left:0px;
 	width:260px;
+	appearance: none;
+    background-color: rgb(247, 248, 249);
+    border: 0.0625rem solid rgb(142, 144, 146);
+    border-radius: 0.25rem;
+    color: rgb(51, 51, 51);
+    display: block;
+    font-size: 1rem;
+    line-height: 1.375rem;
+    min-height: 3.125rem;
+    padding: 0px 0.625rem;
+    transition: border-color 0.25s ease-out 0s;
 }
 
 #cidInput{
-	margin-left:6px;
-	width:80px;
+	margin-left:0px;
+	width:250px;
+	appearance: none;
+    background-color: rgb(247, 248, 249);
+    border: 0.0625rem solid rgb(142, 144, 146);
+    border-radius: 0.25rem;
+    color: rgb(51, 51, 51);
+    display: block;
+    font-size: 1rem;
+    line-height: 1.375rem;
+    min-height: 3.125rem;
+    padding: 0px 0.625rem;
+    transition: border-color 0.25s ease-out 0s;
 }
 
 #cscInput{
-	margin-left:6px;
-	width:70px;
+	margin-left:0px;
+	width:100% !important;
+	appearance: none;
+    background-color: rgb(247, 248, 249);
+    border: 0.0625rem solid rgb(142, 144, 146);
+    border-radius: 0.25rem;
+    color: rgb(51, 51, 51);
+    display: block;
+    font-size: 1rem;
+    line-height: 1.375rem;
+    min-height: 3.125rem;
+    padding: 0px 0.625rem;
+    transition: border-color 0.25s ease-out 0s;
 }
 
 #uid{
 	margin-left:0px;
-	width:210px;
+	width:100% !important;
 }
 
 #upw{
 	margin-left:0px;
-	width:210px;
+	width:100% !important;
 }
 
 #email{
 	margin-left:0px;
-	width:260px;
+	width:100% !important;
 }
 
 #line{
 	margin-left:0px;
-	width:260px;
+	width:100% !important;
 }
 
 .inputElement span{
 	display:block; 
 	margin-bottom:10px;
-	font-size:10px;
+	font-size:12px;
 }
 
 .inputElement span.labelText{ 
@@ -825,7 +897,7 @@ h3.requestHeader{
 }
 .pwdLbl-deskView{padding-bottom:10px}
 #fuid_psk_otp{width:100px}
-#zipCode,#fuid_securityTemp input[type="password"], .inputElement input[type="password"]{ 
+#zipCode,#fuid_securityTemp input[type="text"], .inputElement input[type="text"]{ 
 	font-family:BentonSans !important;
 	font-size: 13px;
     padding: 13px;
@@ -854,17 +926,6 @@ input[type=number] {
 #mobileTableInfoLink.showBlock,#desktopInfoLink.showBlock{display: inline-block;}
 .optionRadio input:focus{outline:1px dotted #000}
 
-input#cidInput[type=number] {
-    -webkit-text-security: disc;
-	 width: 90px;
-}
-input#zipCode[type=number] {
-    -webkit-text-security: disc;
-	 width: 100px;
-}
-input#uid[type=text] {
-    -webkit-text-security: disc;
-	 width: 150px;
 }
 input#upw[type=password] {
     -webkit-text-security: disc;
